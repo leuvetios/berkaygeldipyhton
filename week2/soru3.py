@@ -1,5 +1,4 @@
 
-
 a = []
 s = input("Bir cümle yada kelime giriniz : ")
 a += s
