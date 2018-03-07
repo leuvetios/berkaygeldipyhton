@@ -2,7 +2,7 @@
 a = []
 #Kelime istiyorum input ile 
 s = input("Polidromu denediğiniz kelimeyi veya Cümleyi giriniz : ")
-# inputtan aldığım cümle veya kelimeyi a lsitesine atıyorum
+# inputtan aldığım cümle veya kelimeyi a listesine atıyorum
 s = a
 
 #kolaylık olması bakımısından my_str diye bir değişkene atıyorum 
