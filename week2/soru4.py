@@ -1,10 +1,10 @@
 a = []
 s = input("Polidromu denediğiniz kelimeyi veya Cümleyi giriniz : ")
-s = a
 
 
 my_str = s
 
+my_str = my_str.casefold()
 
 rev_str = reversed(my_str)
 
