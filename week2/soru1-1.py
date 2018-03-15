@@ -1,5 +1,7 @@
 import random
 s = 0
+
+d = 0
 arr = [None] * 100
 for i in range(1, 100):
 
@@ -9,10 +11,19 @@ for i in range(1, 100):
 arr[0] = random.randint(1, 99)
 print(arr)
 random.shuffle(arr)
-toplam = 0
 
-for i in arr :
-    toplam = toplam + i
+arr3 = {}
+arr2 = []
 
-sayi = toplam - 4950
-print ("random sayi :",sayi)
+for x in arr :
+    if x not in arr3 :
+        arr3[x] = 1
+
+    else :
+        if arr3[x] == 1 :
+            arr2.append(x)
+
+        arr3[x] += 1
+
+print(arr2)
+
